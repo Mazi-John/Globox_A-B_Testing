@@ -12,25 +12,25 @@ The Growth team has chosen to do an A/B test experiment that highlights key prod
 
  
 
-**The setup of the A/B test is as follows:**
-	The experiment is only being run on the mobile website.
-	A user visits the GloBox main page and is randomly assigned to either the control or test group. This is the join date for the user.
-	The page loads the banner if the user is assigned to the test group but does not load the banner if the user is assigned to the control group.
-	The user subsequently may or may not purchase products from the website. It could be on the same day they join the experiment, or days later. If they do make one or more purchases, this is considered a “conversion”.
+**METHODOLOGY**
+The experiment is only being run on the mobile website.
+A user visits the GloBox main page and is randomly assigned to either the control or test group. This is the join date for the user.
+The page loads the banner if the user is assigned to the test group but does not load the banner if the user is assigned to the control group.
+The user subsequently may or may not purchase products from the website. It could be on the same day they join the experiment, or days later. If they do make one or more purchases, this is considered a “conversion”.
 
  
 **ANALYSIS RESULTS**
-	Number of users in the control group, A: 24,343
-	Number of users in the treatment group, B: 24600
-	Total number of distinct users in the experiment: 48943
-	Total number users in the Control group, A who converted: 2094.
-	Conversion rate for all users: (No. 4 / No. 3) x 100 = 4.28%
-	Number of users in the control group who converted: 955.
-	Number of users in the treatment group who converted: 1139.
-	User conversion rate for control group A: (No.6/No.1) x 100 = 3.92%
-	User conversion rate for treatment group B: (No.7/No.2) x 100 = 4.63%
-	Average amount spent per user for control group A: $3.375
-	Average amount spent per user for treatment group B: $3.391
+Number of users in the control group, A: 24,343
+Number of users in the treatment group, B: 24600
+Total number of distinct users in the experiment: 48943
+Total number users in the Control group, A who converted: 2094.
+Conversion rate for all users: (No. 4 / No. 3) x 100 = 4.28%
+Number of users in the control group who converted: 955.
+Number of users in the treatment group who converted: 1139.
+User conversion rate for control group A: (No.6/No.1) x 100 = 3.92%
+User conversion rate for treatment group B: (No.7/No.2) x 100 = 4.63%
+Average amount spent per user for control group A: $3.375
+Average amount spent per user for treatment group B: $3.391
 
 
 **Hypothesis test to see whether there is a difference in the conversion rate between the two groups.**
@@ -132,9 +132,6 @@ Confidence Interval = Test Statistic ± critical value X standard error
 		    = 0.439 < µ < -0.471
 
 **Conclusion**: We are 95% sure that the true average amount spent in the combined population of the control and treatment groups is likely to fall within $-0.439 and $0.471.
-
-
-
 
 
 **RECOMMENDATION**
