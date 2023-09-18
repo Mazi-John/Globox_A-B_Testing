@@ -1,18 +1,22 @@
 # Globox_A-B_Testing
 
 **DESCRIPTION**
+
 Analyzed A/B Tests to determine if the inclusion of a food &amp; drink banner on the Globox e-commerce website will increase revenue. Implemented statistical hypothesis testing using conversion rates and average amount spent per user as point estimates and provided actionable recommendations.
 
 **SUMMARY**
+
 This is an A/B Test experiment to determine the effect that the inclusion of a ‘food and drinks’ banner on the Globox website will have on revenue. Control and treatment groups were tested for 12 days. The final recommendation is to launch the banner because the experiment showed a statistically significant difference in the proportion of users that converted between the control and treatment groups. Furthermore, this recommendation also considers the fact that the change (setting up a banner on a website) carries minimum financial risk since the cost of designing a banner is a lightweight and does not outweigh the benefit of a possible increase in conversion rate and dollars spent by users on the website.
 
 **CONTEXT**
+
 GloBox is primarily known amongst its customer base for its boutique fashion items and high-end decor products. However, the company wants to beam awareness on its food and drink product category to increase revenue.
 The Growth team has chosen to do an A/B test experiment that highlights key products in the food and drink category by setting up a banner at the top of the website. While the control group does not see the banner, the treatment group sees it as shown in the image below.
 
  
 
 **METHODOLOGY**
+
 The experiment is only being run on the mobile website.
 A user visits the GloBox main page and is randomly assigned to either the control or test group. This is the join date for the user.
 The page loads the banner if the user is assigned to the test group but does not load the banner if the user is assigned to the control group.
@@ -20,17 +24,18 @@ The user subsequently may or may not purchase products from the website. It coul
 
  
 **ANALYSIS RESULTS**
-Number of users in the control group, A: 24,343
-Number of users in the treatment group, B: 24600
-Total number of distinct users in the experiment: 48943
-Total number users in the Control group, A who converted: 2094.
-Conversion rate for all users: (No. 4 / No. 3) x 100 = 4.28%
-Number of users in the control group who converted: 955.
-Number of users in the treatment group who converted: 1139.
-User conversion rate for control group A: (No.6/No.1) x 100 = 3.92%
-User conversion rate for treatment group B: (No.7/No.2) x 100 = 4.63%
-Average amount spent per user for control group A: $3.375
-Average amount spent per user for treatment group B: $3.391
+	
+ 	Number of users in the control group, A: 24,343
+	Number of users in the treatment group, B: 24600
+	Total number of distinct users in the experiment: 48943
+	Total number users in the Control group, A who converted: 2094.
+	Conversion rate for all users: (No. 4 / No. 3) x 100 = 4.28%
+	Number of users in the control group who converted: 955.
+	Number of users in the treatment group who converted: 1139.
+	User conversion rate for control group A: (No.6/No.1) x 100 = 3.92%
+	User conversion rate for treatment group B: (No.7/No.2) x 100 = 4.63%
+	Average amount spent per user for control group A: $3.375
+	Average amount spent per user for treatment group B: $3.391
 
 
 **Hypothesis test to see whether there is a difference in the conversion rate between the two groups.**
@@ -135,6 +140,7 @@ Confidence Interval = Test Statistic ± critical value X standard error
 
 
 **RECOMMENDATION**
+
 I recommend launching the banner based on two premises:
 	A significant positive difference was observed in the conversion rates between the control and treatment groups. In like manner, there was a positive difference, albeit marginal, in the average amount spent per user between the control and treatment groups.
 	Furthermore, hoisting a digital banner on the website constitutes a lightweight expenditure that carries minimal financial risk even if the positive results derived from the experiment are not prolonged. In other words, this risk will have no jeopardizing effect on the business.
