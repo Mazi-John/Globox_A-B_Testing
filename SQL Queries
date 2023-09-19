@@ -1,0 +1,15 @@
+SELECT g.uid user_id,
+			 u.country country,
+       u.gender gender,
+       g.device device,
+       g.group test_group,
+       CASE WHEN a.spent>0 THEN 1
+       ELSE 0
+       END conversion,
+       COALESCE (SUM(a.spent),0) amt_spent      
+FROM groups g
+JOIN users u
+ON g.uid=u.id
+LEFT JOIN activity a
+ON u.id=a.uid
+GROUP BY 1,2,3,4,5,6
