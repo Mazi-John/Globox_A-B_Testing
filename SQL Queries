@@ -120,20 +120,21 @@ ORDER BY AVG (a.spent)
 
 	12. Write a SQL query that returns: the user ID, the user’s country, the user’s gender, the user’s device type, the user’s test group, whether or not they converted (spent > $0), and how much they spent in total ($0+)
 	
-	SELECT u.id user_id,
+	SELECT g.id user_id,
 	       u.country  country,
 	       u.gender  gender,
-	       a.device  device,
+	       g.device  device,
 	       g.group test_group,
-	       a.spent  amt_spent,
-	       SUM(a.spent)  total_conversion
+		   CASE WHEN a.spent>0 THEN 1
+		   ELSE 0
+		   END conversion
+	       COALESCE (SUM(a.spent),0)  amt_spent
 	      
 	FROM groups g
-	FULL JOIN users u
+	JOIN users u
 	ON g.uid=u.id
-	FULL JOIN activity a
+	LEFT JOIN activity a
 	ON u.id=a.uid
-	WHERE a.spent>0
 	GROUP BY 1,2,3,4,5,6
-	ORDER BY 1
+	
 	
