@@ -1,0 +1,9 @@
+Data for the average amount spent per user in the control group (coalesced)
+https://docs.google.com/spreadsheets/d/1Cy7PIhVeBMT-o0lSA_DMwVg2Cw4ZJuYzM2_TYZvbNJM/edit#gid=921282875
+
+
+Data for the average amount spent per user in the treatment group (coaleasced)
+https://docs.google.com/spreadsheets/d/1-hmCzoe5PalRGGdcc6oLw5KnBgBqYtBlqIGMe7jnZOM/edit#gid=278481876
+
+Data derived from the SQL query that returns: the user ID, the user’s country, the user’s gender, the user’s device type, the user’s test group, whether or not they converted (spent > $0), and how much they spent in total ($0+)
+https://docs.google.com/spreadsheets/d/1TRflE25FhCUk0GxC-dYDk3J4tO0QGinw3FERQfbWi-8/edit#gid=2087791849
